@@ -4,3 +4,4 @@ flake8
 pytest-mock
 coverage
 twine
+bump2version==0.5.11
