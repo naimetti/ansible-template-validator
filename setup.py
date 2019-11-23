@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
     name="ansible_template_validator",
-    version="0.1.0",
+    version="0.1.1",
     author="Nicolas Aimetti",
     author_email="naimetti@yahoo.com.ar",
     description="A helper script to use with the validate option from ansible template module",
