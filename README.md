@@ -1,5 +1,9 @@
 # ansible-config-validator
 
+
+[![image](https://img.shields.io/pypi/v/ansible-template-validator.svg)](https://pypi.org/project/ansible-template-validator/)
+[![Build Status](https://travis-ci.org/naimetti/ansible-template-validator.svg?branch=master)](https://travis-ci.org/naimetti/ansible-template-validator)
+
 A helper script to use with the validate option from ansible 
 [template](https://docs.ansible.com/ansible/latest/modules/template_module.html) module
 
