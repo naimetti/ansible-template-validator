@@ -5,7 +5,7 @@ with open('README.md') as readme_file:
 
 setup(
     name="ansible_template_validator",
-    version='0.1.3',
+    version='0.1.4',
     author="Nicolas Aimetti",
     author_email="naimetti@yahoo.com.ar",
     description="A helper script to use with the validate option from ansible template module",

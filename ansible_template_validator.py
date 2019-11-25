@@ -5,7 +5,7 @@ import subprocess
 import shlex
 from os.path import dirname, basename, join
 
-__version__ = '0.1.3'
+__version__ = '0.1.4'
 
 DESCRIPTION = 'Command to be used as helper with ansible template validate. ' \
               'Replaces original_file with new_file, and then run validation_command. After this,' \
