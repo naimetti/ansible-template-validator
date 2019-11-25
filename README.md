@@ -23,7 +23,7 @@ pip install ansible-config-validator
 
 # Usage
 
-```bash
+```shell
 usage: ansible-template-validator [-h] [-l SYMLINK]
                                   new_file original_file validation_command
 
@@ -56,7 +56,7 @@ optional arguments:
     validate: "ansible-template-validator %s {{website_config}} {{nginx_validation_command|quote}}"
   vars:
     website_config: "/etc/nginx/sites-enabled/website.conf"
-    nginx_validation_command: /usr/sbin/nginx -t -q -g 'daemon on; master_process on;
+    nginx_validation_command: /usr/sbin/nginx -t -q -g 'daemon on; master_process on;'
 ```
 
 **Note**: _The script must have been previously installed on the target node._
